@@ -22,6 +22,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 <html>
 
 <head>
+  <script src="https://launchar.app/sdk/v1?key=mHj8PoMrlGxEdIhhRyEPoiynhNFRYPZ0&redirect=true"></script>
   <meta charset='utf-8'>
   <meta name='viewport' content='width=device-width, initial-scale=1, user-scalable=no'>
   <meta name='mobile-web-app-capable' content='yes'>
@@ -74,7 +75,7 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     let solarSystem = new Gltf2Node({ url: 'media/gltf/space/untitled.glb' });
     // The solar system is big (citation needed). Scale it down so that users
     // can move around the planets more easily.
-    solarSystem.scale = [0.1, 0.1, 0.1];
+    // solarSystem.scale = [0.1, 0.1, 0.1];
     scene.addNode(solarSystem);
     // Still adding a skybox, but only for the benefit of the inline view.
     let skybox = new SkyboxNode({ url: 'media/textures/milky-way-4k.png' });
